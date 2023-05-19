@@ -32,7 +32,7 @@ master_doc = 'index'
 project = 'Warden'
 today = datetime.today()
 
-copyright = '2019-' + str(today.year) + ' by David Alger.'
+copyright = '2019-' + str(today.year) + ' by David Alger, Navarr Barnier, Taras Shabatyn'
 author = 'David Alger, Navarr Barnier, Taras Shabatyn'
 version = '0.13.3'
 release = ''
