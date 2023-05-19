@@ -1,5 +1,6 @@
 import sys, os
 import sphinx_rtd_theme
+import datetime
 
 #import recommonmark
 import myst_parser
@@ -29,9 +30,11 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 project = 'Warden'
-copyright = '2019-2022 by David Alger.'
-author = 'David Alger'
-version = ''
+today = datetime.today()
+
+copyright = '2019-' + str(today.year) + ' by David Alger.'
+author = 'David Alger, Navarr Barnier, Taras Shabatyn'
+version = '0.13.3'
 release = ''
 
 exclude_patterns = ['_build']
